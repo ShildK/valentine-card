@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-   const [hoverPosition, setHoverPosition] = useState({ x: "54%", y: "70%" });
+   const [hoverPosition, setHoverPosition] = useState({ x: "55%", y: "70%" });
    const [isHovered, setIsHovered] = useState(false);
    const [heSaidYes, setHeSaidYes] = useState(false);
    const [heSaidNo, setHeSaidNo] = useState(false);
@@ -30,14 +30,14 @@ function App() {
                {heSaidYes ? (
                   <>
                      <h1 className="app__title">
-                        Я знала что ты ответишь положительно :D
+                        Я знала что ты так ответишь. Я в тебе не сомневалась :D
                      </h1>
                      <img className="app__gif" src={"./gif-3.gif"}></img>
                   </>
                ) : (
                   <>
                      <h1 className="app__title">
-                        Ты будешь со мной целую вечность?
+                        Ты любишь больше меня? Или Гориллу (желтую)?
                      </h1>
                      <img className="app__gif" src={"./gif-1.gif"}></img>
                      <div className="app__buttons">
@@ -53,7 +53,7 @@ function App() {
                               setHeSaidNo(true);
                            }}
                         >
-                           Нет
+                           Горилла ван лаф!
                         </button>
                         <button
                            className={"button"}
@@ -61,7 +61,7 @@ function App() {
                               setHeSaidYes(!heSaidYes);
                            }}
                         >
-                           Да
+                           Конечно тебя! <3
                         </button>
                      </div>
                   </>
