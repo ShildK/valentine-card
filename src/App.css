@@ -1,0 +1,57 @@
+.App {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 9% auto;
+   
+}
+h1{
+  color: #333;  
+  font-size: 38px;
+}
+.app__gif{
+  width: 20%;
+  
+}
+.app__buttons{
+  min-width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+   background-color: #e6579a;
+   width: 70px;
+   margin: 0 10px 0;
+   padding: 10px 20px;
+
+
+   color: #ffffff;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+   position: absolute;
+   top: 70%;
+   left: 45%;
+   transform: translate(-50%, -50%);
+   transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #f5c0d9;
+}
+
+@media (max-width: 1200px){
+  h1{
+    font-size: 34px;
+  }
+  .app__gif{
+    width: 23%;
+  }
+  .button {
+    left: 43%;
+ }
+}
