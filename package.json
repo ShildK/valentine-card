@@ -1,7 +1,7 @@
 {
   "name": "valentine-card",
   "version": "0.1.0",
-  "homepage": "https://shildk.github.io/valentine-card",
+  "homepage": "https://ShildK.github.io/valentine-card",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
