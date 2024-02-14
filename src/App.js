@@ -53,7 +53,7 @@ function App() {
                               setHeSaidNo(true);
                            }}
                         >
-                           Горилла ван лаф!
+                           Гориллу!
                         </button>
                         <button
                            className={"button"}
@@ -61,7 +61,7 @@ function App() {
                               setHeSaidYes(!heSaidYes);
                            }}
                         >
-                           Конечно тебя! <3
+                           {"Конечно тебя! <3"}
                         </button>
                      </div>
                   </>
